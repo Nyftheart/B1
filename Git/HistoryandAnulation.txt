@@ -1,0 +1,8 @@
+git log -p monFichier
+gitk monFichier
+gitk --follow monFichier
+git reset --hard HEAD~1
+git push
+git diff HEAD^ | patch --reverse
+git revert HEAD~3..HEAD
+git revert 444b1cff

@@ -1,0 +1,9 @@
+git branch experimental
+git branch
+git checkout experimental
+git commit -a
+git checkout master
+git merge experimental
+git diff
+git branch -d experimental
+git merge titrebranche
