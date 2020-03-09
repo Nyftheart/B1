@@ -1,0 +1,46 @@
+.product{
+    width: 350px;
+    padding: : 40px;
+    border: 1px solid black;
+    position: relative;
+}
+.product img{
+    width: 100%;
+}
+.product-thumbnail{
+    position: relative;
+}
+.product-thumbnail i {
+    position: absolute;
+    right: 10px;
+    top : 5px;
+    font-size: 25px;
+}
+.product .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .overlay {
+    opacity:1;
+    transition: 0.3s all;
+}
+.product button{
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 17px;
+    letter-spacing: 3px;
+    position: absolute;
+    top : 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}

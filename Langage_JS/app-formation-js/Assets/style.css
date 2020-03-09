@@ -1,0 +1,9 @@
+.ui-formulaire {
+display:flex;
+margin:auto;
+flex-wrap: wrap;
+}
+
+body{
+    align-items:center;
+}

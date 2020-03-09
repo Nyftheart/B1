@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App JavaScript</title>
+    <link rel="stylesheet" 
+    href = https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css
+    />
+    <link rel="stylesheet" href="Assets/style.css" />
+    <script src="Assets/script.js" async></script>
+</head>
+<body>
+    <header>
+        <nav class="ui big menu">
+         <div class="ui container">
+          <h1 class="header item">
+             <i class="rocket icon"></i>
+             Image satellite
+         </h1>
+         <a class="item">Acceuil</a>
+         </div>
+        </nav>
+    </header>
+    <main>
+        <div class="ui text container">
+            <article>
+                <h2>
+                    Image satellite
+                    <span class="data-title"></span>
+                </h2>
+                <img
+                src ="https://via.placeholder.com/850"
+                alt=""
+                class="ui image data-image"
+                />
+                <p class="data-description"></p>
+            </article>
+        </div>
+        <div class="ui text container">
+            <article>
+                <h1> Entrez les coordonnées !</h1>
+                <div class="ui form">
+                    <label for="lon"> Longitude 
+                        <input type="number" id="lon" name="lon" value="2.3488" required>
+                    </label>
+                    <label for="lon"> Latitude 
+                        <input type="number" id="lat" name="lat" value="48.8534" required>
+                    </label>
+                    <button type="button" id="button" name="button" class="ui button primary">Découvrir</button>
+        </div>
+            </article>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="ui container">
+            <p> Copyright 2020</p>
+        </div>
+    </footer>
+</body>
+</html>

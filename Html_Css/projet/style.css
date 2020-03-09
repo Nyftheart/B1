@@ -1,0 +1,92 @@
+/* .paragraphe{ 
+    color: red;
+}
+
+#camelCase {
+    color: blue;
+}
+.section p:last-of-type{
+    color: blueviolet;
+}
+.section p:first-of-type{
+    color: aqua;
+}
+.section p:nth-of-type(6){
+    color: aquamarine;
+}
+.section p:nth-of-type(odd){
+    background: green;
+}
+.section p:nth-of-type(even){
+    background: yellow;
+}
+.section p:nth-of-type(4n){
+    background: tomato;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    display: inline;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.logo{
+    width: 100px;
+}
+.logo img {
+    width: 70%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background: white;
+    top: 0;
+    left: 0;
+    box-shadow: 6px 6px 6px gray;
+}
+.scroll-top {
+    background: white;
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}*/
+
+.warp{
+    position: relative;
+    height: 400px;
+}
+
+.grid{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: absolute;
+    /* display: inline-block;
+    vertical-align: middle; */
+}
+.grid.bg-red{
+    background: red;
+}
+.grid.bg-black{
+    background: black;
+    top : 40px;
+    left : 100px;
+    z-index: 1;
+}
+
+.main {
+    height: 800;
+    position: relative;
+}
