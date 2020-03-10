@@ -6,6 +6,7 @@ SRCDIR = ./src/
 
 SOURCES = $(SRCDIR)*.c\
 		  $(SRCDIR)windows/*.c\
+		  $(SRCDIR)entities/*.c\
 		  $(SRCDIR)utils/*.c
 
 all: rogue
