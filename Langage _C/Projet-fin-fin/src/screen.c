@@ -2,6 +2,7 @@
 #include "utils.h"
 
 
+
 void screenSetUp()
 {
     MAX_HEIGHT = 25;
@@ -23,4 +24,20 @@ void printGameHub(Level * level)
     printw("    Attack: %d", level->user->attack);
     printw("    Exp: %d", level->user->exp);
     printw("      ");
+}
+
+
+void printInventory(Player * player)
+{
+    int i;
+    mvprintw(26, 0, "Inventaire: ");
+
+    for (i = 0; i < player->numberItems; ++i)
+    {
+        
+        printw("  -");
+        printw(player->items[i]->string);
+        
+        
+    }
 }

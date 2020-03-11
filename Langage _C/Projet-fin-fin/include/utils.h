@@ -12,6 +12,7 @@ void pathFind(Position * start, Position * end);
 /* screen functions */
 void screenSetUp();
 void printGameHub(Level * level);
+void printInventory(Player * player);
 void combat(Player * player, Monster * monster, int order);
 
 #endif
