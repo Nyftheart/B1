@@ -14,8 +14,10 @@ void Credis()
             menuLoop();
         }
         printw("Credis\n");
-        printw("alex\n");
-        printw("yann\n");
+        printw("Le BOSSSSSSSSSS PUTAIN : Moi (Alex)\n");
+        printw("Le Reale de fous : Yann\n");
+        printw("J'ai pas de PC MDR : Mahery\n");
+
 
         ch = getch();
         

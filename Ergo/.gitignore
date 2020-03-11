@@ -1,0 +1,15 @@
+# Rules for LaTeX files
+*.aux
+*.toc
+*.out
+*.log
+*.synctex.gz
+
+# Rules because of JetBrains
+*.idea
+
+# Rules because I do some test for the README.md
+README.html
+
+# Rules for Projects
+technologie_web_et_bdd/ergo/5-lucasg-nicolas-charles.vp
